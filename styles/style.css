@@ -81,3 +81,30 @@
     justify-items: center;
     padding: 30px;
 }
+
+/* responsive for mobile */
+@media screen and ( max-width:576px ) {
+    .nav-bar, 
+    .nav-links, 
+    .banner-content{
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .banner{
+        flex-direction: column-reverse;
+    }
+
+    .banner-content{
+        width: 100%;
+    }
+    .banner-image-container{
+       width: 257px;
+       height: 257px;
+    }
+     .banner-image-container img{
+        width: 202px;
+        height: 190px;
+     }
+}
