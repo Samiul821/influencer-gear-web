@@ -91,12 +91,74 @@ hr{
 /* sponsor section */
 .sponsor-section{
     justify-content: center;
+    margin-bottom: 100px;
 }
 
 .sponsor-container{
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     gap: 60px;
+}
+
+/* card-section */
+.card-section{
+    align-items: center;
+    width: 1047px;
+    margin: 0 auto 0 auto;
+    margin-bottom: 100px;
+}
+
+.card-title{
+    text-align: center;
+    color: rgb(58, 58, 58);
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 47px;
+}
+
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.box{
+    width: 315px;
+    height: 470px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    padding-left: 15px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    transition: box-shadow 0.5s ease;
+}
+
+.box:hover{
+    box-shadow: 10px 10px 20px rgba(36, 36, 36, 0.5);
+}
+
+.box img{
+   margin-bottom: 16px;
+}
+
+.box-title{
+    color: #18191F;
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.price{
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.box-description{
+    color: rgb(120, 120, 133);
+    font-size: 14px;
+    font-weight: 700;
 }
 
 /* responsive for mobile */
