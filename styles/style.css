@@ -16,6 +16,7 @@
 .nav-bar{
    justify-content: space-around;
    margin-top: 80px;
+   margin-bottom: 50px;
 }
 
 .brand{
@@ -34,4 +35,49 @@
     color: #3A3A3A;
     font-size: 16px;
     font-weight: 600;
+}
+
+/* banner-section */
+.banner{
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.banner-content{
+    width: 582px;
+}
+
+.banner-title{
+    color: #3A3A3A;
+    font-size: 3.25rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.banner-description{
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.banner-btn{
+    padding: 10px 24px;
+    border-radius: 41px;
+    border: none;
+    background: #E02C6D;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.banner-image-container{
+    width: 475px;
+    height: 475px;
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-items: center;
+    padding: 30px;
 }
