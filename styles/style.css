@@ -161,6 +161,40 @@ hr{
     font-weight: 700;
 }
 
+/* featured section */
+.featured-section{
+    width: 1110px;
+    height: 270px;
+    display: flex;
+    gap: 96px;
+    margin: 0 auto 100px auto;
+}
+
+.featured-content{
+    margin: 23px 0;
+}
+
+.featured-title{
+    color: #0A0826;
+    font-size: 2.375rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.featured-description{
+    color: #6C6C6C;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.featured-btn{
+    padding: 10px 24px;
+    border: none;
+    background-color: #E02C6D;
+    color: white;
+    font-weight: 700;
+}
+
 /* responsive for mobile */
 @media screen and ( max-width:576px ) {
     .nav-bar, 
