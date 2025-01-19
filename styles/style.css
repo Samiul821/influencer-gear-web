@@ -174,10 +174,6 @@ hr{
     .banner{
         flex-direction: column-reverse;
     }
-
-    .banner-content{
-        width: 100%;
-    }
     .banner-image-container{
        width: 257px;
        height: 257px;
@@ -191,10 +187,29 @@ hr{
     .sponsor-container{
         grid-template-columns: repeat(4, 1fr);
         gap: 30px;
-        margin: 0 auto 50px auto;
+        /* margin: 0 auto 50px auto; */
     }
 
+    .box{
+        margin: 0 auto;
+    }
     .sponsor-container img{
         width: 50px;
+    }
+
+    .box-container{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;
+        justify-items: center;
+    }
+
+    .card-section{
+        width: 90%;
+    }
+    .box{
+        margin: 0 auto;
+    }
+    .banner-content{
+       width: 90%;
     }
 }
