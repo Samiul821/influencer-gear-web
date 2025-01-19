@@ -165,7 +165,6 @@ hr{
 .featured-section{
     width: 1110px;
     height: 270px;
-    display: flex;
     gap: 96px;
     margin: 0 auto 100px auto;
 }
@@ -245,5 +244,20 @@ hr{
     }
     .banner-content{
        width: 90%;
+    }
+    .featured-section{
+        flex-direction: column-reverse;
+        height: auto;
+        width: 90%;
+        align-items: center;
+    }
+
+    .featured-image img{
+        width: 299px;
+    }
+
+    .featured-content{
+        text-align: center;
+        width: 90%;
     }
 }
